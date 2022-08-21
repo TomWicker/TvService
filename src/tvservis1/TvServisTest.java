@@ -29,7 +29,7 @@ public class TvServisTest extends MySelenium {
     public void newServiceForm(){
         try{
         this.Login();
-        Thread.sleep(3000);
+        Thread.sleep(2000);
         super.buttonById("forms-tab");
         Thread.sleep(2000);
         super.buttonByXpath("/html/body/nav[2]/div[1]/div[2]/div/div/div/div/ul/li[2]/div[1]/ul/li/a");
